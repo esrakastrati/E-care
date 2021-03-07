@@ -1,26 +1,11 @@
 import * as React from "react";
 import { StyleSheet, TouchableOpacity, View, Text } from "react-native";
 
-import EditScreenInfo from "../components/EditScreenInfo";
-import ChatListItem from "../components/ChatListItem";
-import ChatRooms from "../data/ChatRooms";
-import NewMessageButton from "../components/NewMessageButton";
 import { Image, ImageBackground, Dimensions } from "react-native";
 
-import {
-  MaterialCommunityIcons,
-  MaterialIcons,
-  FontAwesome,
-  Fontisto,
-  SimpleLineIcons,
-  Ionicons,
-  AntDesign,
-  Entypo
-} from "@expo/vector-icons";
 import { useNavigation } from "@react-navigation/native";
 import Colors from "../constants/Colors";
 import Users from "../data/Users"
-import style from "../components/ChatInput/style";
 
 export default function chatScreen() {
   const navigation = useNavigation();
@@ -45,8 +30,8 @@ export default function chatScreen() {
 
   return (
     <View style={styles.container}>
-
       <ImageBackground source={require('../data/Images/img.png')} style={styles.back} >
+
 
         <View style={styles.profile}>
 
@@ -73,7 +58,7 @@ export default function chatScreen() {
                   borderRadius: 100,
                   alignSelf: "center"
                 }} />
-              <Text style={{ color: "#ff964f", marginTop: 5 }}> Community </Text>
+              <Text style={{ color: "#ff964f", marginTop: 5, marginLeft: 10, fontWeight: "bold" }}> Community </Text>
             </View>
           </TouchableOpacity>
 
@@ -89,7 +74,7 @@ export default function chatScreen() {
                   borderRadius: 100,
                   alignSelf: "center"
                 }} />
-              <Text style={{ color: "#DE82FF", marginTop: 5 }}> Messages </Text>
+              <Text style={{ color: "#DE82FF", marginTop: 5, marginLeft: 15, fontWeight: "bold" }}> Messages </Text>
             </View>
           </TouchableOpacity>
         </View>
@@ -105,7 +90,7 @@ export default function chatScreen() {
                 borderRadius: 100,
                 alignSelf: "center"
               }} />
-            <Text style={{ color: "#FF0000", marginTop: 5, marginLeft: 15 }}>Schedule </Text>
+            <Text style={{ color: "#FF0000", marginTop: 5, marginLeft: 15, fontWeight: "bold" }}>Schedule </Text>
           </View>
           <View style={styles.icon}>
             <Image source={require('../data/Images/Gallery.png')}
@@ -117,7 +102,7 @@ export default function chatScreen() {
                 borderRadius: 100,
                 alignSelf: "center"
               }} />
-            <Text style={styles.descrip}> Memories </Text>
+            <Text style={{ color: "#fdd835", marginTop: 5, marginLeft: 15, fontWeight: "bold" }}> Memories </Text>
           </View>
         </View>
 
@@ -133,7 +118,7 @@ export default function chatScreen() {
                 borderRadius: 100,
                 alignSelf: "center"
               }} />
-            <Text style={styles.descrip}> About </Text>
+            <Text style={{ color: "black", marginTop: 5, marginLeft: 20, fontWeight: "bold" }}> About </Text>
           </View>
 
           <View style={styles.icon}>
@@ -146,12 +131,13 @@ export default function chatScreen() {
                 borderRadius: 100,
                 alignSelf: "center"
               }} />
-            <Text style={styles.descrip}> Games </Text>
+            <Text style={{ color: "#2196f3", marginTop: 5, marginLeft: 20, fontWeight: "bold" }}> Games </Text>
           </View>
 
         </View>
       </ImageBackground>
     </View >
+
   );
 }
 
@@ -160,13 +146,16 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: "center",
     justifyContent: "center",
-    //backgroundColor: "#8bc34a",
+    backgroundColor: "hsl(121, 47%, 35%)",
+
+
   },
 
   back: {
     flex: 1,
     width: "100%",
-    height: Dimensions.get("window").height,
+    height: "100%",
+    //height: Dimensions.get("window").height,
     resizeMode: "cover",
     position: "absolute"
   },
@@ -203,10 +192,11 @@ const styles = StyleSheet.create({
     width: "80%",
     justifyContent: "center",
     flexDirection: "row",
-    //margin: 50,
+    marginRight: 40,
+    marginLeft: 40,
     //borderColor: "#3C99DC",
     //borderWidth: 5,
-    backgroundColor: "#aed581",
+    backgroundColor: "rgba(17, 186, 165, 0.3)",
     borderRadius: 30,
     marginTop: "5%",
 
@@ -216,8 +206,9 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
     textAlign: "center",
     padding: 30,
-    fontSize: 30,
-    color: "#33691e"
+    fontSize: 28,
+    color: "#aed581",
+    margin: 20
 
 
   },
@@ -259,15 +250,17 @@ const styles = StyleSheet.create({
     width: 160,
     //alignContent: "center",
     padding: 31,
-    paddingRight: 45,
+    //paddingRight: 45,
     //borderColor: "#3C99DC",
     //borderWidth: 5,
-    backgroundColor: "#aed581",
+    //backgroundColor: "#aed581",
+    //backfaceVisibility: "visible",
+    backgroundColor: "rgba(17, 186, 165, 0.3)",
     //flexDirection: "column",
     justifyContent: "center",
     margin: 10,
     borderRadius: 30,
-    //opacity: 0.3
+    opacity: 0.9
 
   },
 
@@ -291,4 +284,8 @@ const styles = StyleSheet.create({
     // opacity: 1
   },
 
-});
+
+
+}
+
+);
