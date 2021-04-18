@@ -1,14 +1,36 @@
 # E-care
 
 
-Profile: The digital version of the personal white board often seen in long term care homes beside each resident’s bed.
-Resident’s profile includes name, age, location, hobbies, interesting facts, health conditions. Fields are updated and edited by authorized family members/caregivers anytime and anywhere and could be viewed in a real-time manner by all members in the circle of care. (profile image
-Community: The community feature addresses the lack of communication (mostly remote communication) among families, caregivers and residents.
+<strong> Profile: </strong>
+The digital version of the personal white board often seen in long term care homes beside each resident’s bed.
+<ul>
+  <li>
+Resident’s profile includes name, age, location, hobbies, interesting facts, health conditions. Fields are updated and edited by authorized family members/caregivers anytime and anywhere and could be viewed in a real-time manner by all members in the circle of care.
+  </li> 
+
+</ul>
+
+<strong> Community:  </strong> 
+The community feature addresses the lack of communication (mostly remote communication) among families, caregivers and residents.
+<ul>
+    <li>
+
 Contains contact information of members in the circle of care (name, role/relationship with resident, e-mail, phone number). 
+  </li> 
+
+  <li>
+
 From here, members can contact each other (through message, audio call, or video call). Members can also create group chats/group calls either for the purpose of:
 discussing the care for dementia residents
 contacting dementia residents remotely if the resident is capable of handling calls himself/herself, or when a member is with the resident at a point in time. 
-The feature also allows authorized members to invite, add or remove people from the circle of care. (community image)
+  </li> 
+
+  <li>
+
+The feature also allows authorized members to invite, add or remove people from the circle of care. 
+  </li> 
+
+  </ul>
 Schedule: The schedule addresses the concerns and frustrations of families, friends, or caregivers for the lack of information, updates about the dementia resident on a regular basis at the long-term care home.
 A real-time calendar of resident’s activities updated and managed by authorized members in the circle of care. Digital calendar allows users to view activities daily, weekly or monthly to best suit their preferences. 
 Members in the circle of care can register/edit/remove their own activities with the resident on any certain date and time. All activities with different members are displayed on the calendar, which allows ease of cooperation and communication, while avoiding conflicts around the care of residents. 
