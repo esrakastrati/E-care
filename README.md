@@ -1,37 +1,12 @@
 # E-care
 
-
+<h1> Implemented </h1>
 <strong> Profile: </strong>
 The digital version of the personal white board often seen in long term care homes beside each resident’s bed.
-<ul>
-  <li>
-Resident’s profile includes name, age, location, hobbies, interesting facts, health conditions. Fields are updated and edited by authorized family members/caregivers anytime and anywhere and could be viewed in a real-time manner by all members in the circle of care.
-  </li> 
-
-</ul>
 
 <strong> Community:  </strong> 
 The community feature addresses the lack of communication (mostly remote communication) among families, caregivers and residents.
-<ul>
-    <li>
 
-Contains contact information of members in the circle of care (name, role/relationship with resident, e-mail, phone number). 
-  </li> 
-
-  <li>
-
-From here, members can contact each other (through message, audio call, or video call). Members can also create group chats/group calls either for the purpose of:
-discussing the care for dementia residents
-contacting dementia residents remotely if the resident is capable of handling calls himself/herself, or when a member is with the resident at a point in time. 
-  </li> 
-
-  <li>
-
-The feature also allows authorized members to invite, add or remove people from the circle of care. 
-  </li> 
-
-  </ul>
-  
   
 <strong> Schedule: </strong>
 
@@ -61,7 +36,8 @@ Reminder notification sent to a member's account is another important aspect of 
   
   </ul>
   
-  
+  <h1> Not Implemented </h1>
+
 <strong>Media: </strong> 
 
 The media feature addresses the lack of customized and personalized social media platforms for dementia residents, enabling residents to feel engaged and involved in the daily life of communities, spirit and nature.
