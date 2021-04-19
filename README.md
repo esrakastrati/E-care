@@ -2,6 +2,8 @@
 
 <p> You can find the documents in the folder main/ApplicationDocuments </p>
 <h1> Implemented </h1>
+
+
 <strong> Profile: </strong>
 
 The digital version of the personal white board often seen in long term care homes beside each resident’s bed.
