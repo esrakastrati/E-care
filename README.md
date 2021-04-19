@@ -3,6 +3,7 @@
 <h1> Implemented </h1>
 <strong> Profile: </strong>
 The digital version of the personal white board often seen in long term care homes beside each resident’s bed.
+<br> 
 
 <strong> Community:  </strong> 
 The community feature addresses the lack of communication (mostly remote communication) among families, caregivers and residents.
