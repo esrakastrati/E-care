@@ -3,10 +3,12 @@
 <p> You can find the documents in the folder main/ApplicationDocuments </p>
 <h1> Implemented </h1>
 <strong> Profile: </strong>
+
 The digital version of the personal white board often seen in long term care homes beside each resident’s bed.
 <br/> 
 
 <strong> Community:  </strong> 
+
 The community feature addresses the lack of communication (mostly remote communication) among families, caregivers and residents.
 
   
@@ -25,5 +27,6 @@ The media feature addresses the lack of customized and personalized social media
 
 
 <strong> Games:</strong>
+
 The games feature facilitates entertainment and interactive activities for dementia residents. This is also a future development with in-depth research regarding Cognitive, Memory and Exercise games. Content could be chosen to be included/excluded by members.
 
