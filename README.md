@@ -1,3 +1,4 @@
+
 # E-care
 
 <p> You can find the documents in the folder main/ApplicationDocuments </p>
@@ -5,7 +6,24 @@
 <p> Using TypeScript to develop a native application which will be deployed using Expo Client and will fetch data from Dynamodb running a GraphQL database, finally developing this into a working application.
 
  </p>
+ 
+ <div>
+<p>
+https://user-images.githubusercontent.com/40359556/116013075-34234380-a5fc-11eb-97c0-2b1ac044bca5.mp4
 
+ </p>
+ <p>
+
+
+https://user-images.githubusercontent.com/40359556/116013075-34234380-a5fc-11eb-97c0-2b1ac044bca5.mp4
+
+
+
+
+
+</p>
+
+</div>
 
 <h2> React Native </h2> 
 React Native is a JavaScript framework for writing real, natively rendering mobile applications for iOS and Android. It’s based on React, Facebook’s JavaScript library for building user interfaces, but instead of targeting the browser, it targets mobile platforms. In other words: web developers can now write mobile applications that look and feel truly native to all from the comfort of a JavaScript library that we already know. React Native makes it easy to simultaneously develop for both Android and iOS.
