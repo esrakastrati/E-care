@@ -1,0 +1,45 @@
+ <DropDownPicker
+                    items={[
+                        { label: 'USA', value: 'usa' },
+                        { label: 'UK', value: 'uk' },
+                        { label: 'France', value: 'france' },
+                    ]}
+                    containerStyle={{ height: 40 }}
+                    style={{ backgroundColor: '#fafafa' }}
+                    itemStyle={{
+                        justifyContent: 'flex-start'
+                    }}
+                    dropDownStyle={{ backgroundColor: '#fafafa' }}
+
+                />
+
+
+                  <View style={styles.smallContainer}>
+                <Text style={styles.answer}>I used to serve in army</Text>
+            </View>
+            <View style={styles.smallContainer}>
+                <Text style={styles.answer}>I have dementia</Text>
+            </View>
+
+
+
+================== nodemailer
+
+
+    const transporter = nodemailer.createTransport({
+        service: 'gmail',
+        auth: {
+            user: '',
+            pass: ''
+        }
+    });
+
+    // send email
+    const sendMail = async () => {
+        await transporter.sendMail({
+            from: 'esra.kastrati6@gmail.com',
+            to: 'esra.kastrati6@gmail.com',
+            subject: 'Test Email Subject',
+            html: '<h1>Example HTML Message Body</h1>'
+        });
+    }
