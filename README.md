@@ -3,7 +3,7 @@
 
 <p> You can find the documents in the folder main/ApplicationDocuments </p>
 
-<p> Using TypeScript to develop a native application which will be deployed using Expo Client and will fetch data from Dynamodb running a GraphQL database, finally developing this into a working application.
+<p> Using TypeScript to develop a native application which will be deployed using Expo Client and will fetch data from Dynamodb running a GraphQL database, finally developing this into a working prototype.
 
  </p>
  
