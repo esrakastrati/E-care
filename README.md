@@ -7,23 +7,16 @@
 
  </p>
  
- <div>
-<p>
-https://user-images.githubusercontent.com/40359556/116013075-34234380-a5fc-11eb-97c0-2b1ac044bca5.mp4
-
- </p>
- <p>
+ 
+ 
+<img width="609" alt="Screen Shot 2021-04-26 at 5 44 53 AM" src="https://user-images.githubusercontent.com/40359556/116073106-f820ca80-a65d-11eb-9976-7ae77c9a9ddb.png">
 
 
-https://user-images.githubusercontent.com/40359556/116013075-34234380-a5fc-11eb-97c0-2b1ac044bca5.mp4
+ 
+ 
 
 
 
-
-
-</p>
-
-</div>
 
 <h2> React Native </h2> 
 React Native is a JavaScript framework for writing real, natively rendering mobile applications for iOS and Android. It’s based on React, Facebook’s JavaScript library for building user interfaces, but instead of targeting the browser, it targets mobile platforms. In other words: web developers can now write mobile applications that look and feel truly native to all from the comfort of a JavaScript library that we already know. React Native makes it easy to simultaneously develop for both Android and iOS.
